@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Malta Tech</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Malta Tech, soluções de tecnologia em geral para empresas de todo porte.">
+   <meta name="keywords" content="Malta Tech, Malta Tech site, tecnologia, formatacao de computadores, servidores, manutencao">
+  
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+ <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-lg navbar-expand-lg navbar-editar navbar-light fixed-top">
+      <div class="container">
+
+        <a href="#" class="navbar-brand" style="color: white">
+          MALTA TECH
+        </a>
+
+    <button class="navbar-toggler" data-toggle="collapse" 
+        data-target="#nav-principal">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="nav-principal">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servicos" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#quemsomos" class="nav-link">Quem Somos</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contato" class="nav-link">Contato</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://maltatech.com.br/aberturachamado/" target="_blank" rel="noopener noreferrer" class="btn btn-custom">Abrir Chamado</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section id="img-capa">
+  <div class="separador"></div>
+</section> 
+
+<section class="caixa" id="servicos">
+  <div class="container">
+
+    <h2 class="text-center text-uppercase titulo-servicos">Nossos Serviços</h2>
+    <div class="row text-center textos-servicos img-servicos">
+     <div class="col-md-4">
+       <img src="img/imgservicos.jpg" class="img-fluid rounded-circle">
+       <h4>Manutenção</h4>
+       <p>Fazemos Formatação, Manutenção, Instalação e Limpeza de Computadores e Notebooks em geral.</p>
+     </div>
+
+     <div class="col-md-4">
+       <img src="img/imgservicos.jpg" class="img-fluid rounded-circle">
+       <h4>Servidores</h4>
+       <p>Fornecemos desde a compra, até a Instalação e Manutenção de Servidores em geral.</p>
+     </div>
+
+     <div class="col-md-4">
+       <img src="img/imgservicos.jpg" class="img-fluid rounded-circle">
+       <h4>Redes</h4>
+       <p>Fazemos criação e configuração de Redes em geral, desde a parte Física, até a parte Lógica, de empresas de todo porte.</p>
+     </div>
+   </div>
+ </div>
+</section> 
+
+<section class="caixa section-quemsomos" id="quemsomos">
+    
+  <div class="container">
+    <h2 class="text-center text-uppercase text-white mb-5 mt-3">Quem Somos</h2>
+
+    <div class="icon-quemsomos text-center mb-5">
+      <img src="img/quemsomosicone.jpg" class="img-fluid">
+  </div>
+
+    <div class="row">
+      <div class="col-lg-12 p-quemsomos">
+       <p class="lead">Somos uma empresa de informática especializada em atender a sua necessidade. Com uma equipe composta por profissionais capacitados na Área de Engenharia da Computação e Ánalise de Sistemas.</p>
+       <p class="lead">Se o que você procura é preço e qualidade, sua busca acabou. Nosso lema é "A melhor qualidade de serviço, com um preço que cabe no seu bolso".</p>
+       <p class="lead">Estamos disponíveis para atender a sua demanda a qualquer hora do dia, temos uma equipe especializada de plantão para melhor atendê-lo.</p>
+     </div>
+   </div>
+ </div>
+</section>
+
+
+<section class="caixa section-contato" id="contato">
+    
+  <div class="container">
+    <h2 class="text-center text-uppercase titulo-servicos2">Contato</h2>
+    <div class="icon-contato text-center">
+      <img src="img/contatoemail.png" class="img-fluid">
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="cardy-body font-weight-bold">
+
+          <form method="post" id="form_contato">
+
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome" required minlength="4" maxlength="30">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input class="form-control" type="email" name="email" id="email" placeholder="seuemail@dominio.com.br" required maxlength="40">
+            </div>
+
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input class="form-control" type="text" name="assunto" id="assunto" placeholder="Digite o assunto do E-mail" required minlength="4" maxlength="30">
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea class="form-control" name="mensagem" id="mensagem" required></textarea>
+            </div>
+
+            <div id="resposta"></div>
+
+            <button type="submit" class="btn btn-primary btn-lg" id="enviar_form">Enviar Mensagem</button>
+            
+          </form>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row text-white text-center">
+      <div class="col-md-4">
+        <h5 class="text-uppercase mt-5">Endereço</h5>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="mt-2 nav-link">Av. 11 - Centro, Ituiutaba - MG, 38300-142</a></li>
+          <li class="nav-item"><a class="mt-2 nav-link">Telefone: (34) 99673-6029</a><li>
+            <li class="nav-item"><a class="mt-2 nav-link">WhatsApp: (34) 99663-8273</a><li>
+            </ul>
+          </div>
+
+          <div class="col-md-8 iframe-mapa">
+
+            <h5 class="text-uppercase mt-5 mb-4 titulo-frame">Localização</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1886.5449434829159!2d-49.46163124586551!3d-18.971637268007697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e6a2d86a02ae173!2sMalta-Tech!5e0!3m2!1spt-BR!2sbr!4v1576523949837!5m2!1spt-BR!2sbr" width="800" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            
+          </div>
+
+        </div>
+      </div>
+</footer>
+
+<!-- Modal-->
+  <div class="modal fade" id="modalMensagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="modal_titulo_div">
+          <h5 class="modal-title" id="modal_titulo"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modal_conteudo">
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-dismiss="modal" id="modal_btn"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- Jquery e JS do Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+<script src="js/contato.js"></script> 
+    
+<script src="js/scripts.js"></script>  
+
+<!-- Desenvolvido por Youssef Called -->
+
+<!-- Créditos ao MIT por consultas e uso de algumas partes de códigos dos sites https://startbootstrap.com/themes/agency/ e https://startbootstrap.com/themes/freelancer/ -->
+
+<!-- Credits to MIT for querying and using some code parts of websites https://startbootstrap.com/themes/agency/ e https://startbootstrap.com/themes/freelancer/ -->
+  
+
+</body>
+</html>
+
