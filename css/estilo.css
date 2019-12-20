@@ -1,1 +1,214 @@
+html,body{
+	overflow-x: hidden;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*Header*/
+
+.container .navbar-brand{
+	font-family: 'Times New Roman', sans-serif;
+	letter-spacing: 2px;
+	
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Times New Roman', sans-serif;
+	letter-spacing: 2px;	
+	
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #99c2ff;
+}
+
+.navbar-light .navbar-toggler{
+	color: rgba(0,0,0,.5);
+	border-color: rgba(255,255,255,0.5);
+}
+
+.navbar-light .navbar-toggler .navbar-toggler-icon{
+	
+	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+
+}
+
+
+nav.azul{
+	background: #0E0E37;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 300px;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	border: 1px solid white;
+	letter-spacing: 2px;
+}
+
+.btn-custom:hover{
+	
+	background: #E3D5D5;
+	
+}
+
+#img-capa{
+	background:url(../img/imgtopo.jpeg);
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
+	
+}
+
+div.separador{
+	padding-top: 250px;
+	padding-bottom: 200px;
+
+}
+
+
+
+nav.navbar-editar{
+	padding: 15px 0px;
+	background: rgba(0,0,0,0);	
+}
+
+/*Sections body*/
+
+.caixa{
+	
+	padding: 100px 0px;
+	
+}
+
+.titulo-servicos{
+	
+	padding-bottom: 70px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+}
+
+
+.img-servicos img{
+	width: 120px;
+}
+
+.textos-servicos h4{
+	margin: 10px 0px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+.section-quemsomos{
+	background:#04046B;
+	
+}
+
+.section-quemsomos h2{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 4px;
+	letter-spacing: 2px;
+}
+
+
+
+.icon-quemsomos img{
+	width: 170px;
+}
+
+.p-quemsomos p{
+	color: white
+}
+
+
+.icon-contato img{
+	width: 170px;
+}
+
+.section-contato h2{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 4px;
+	letter-spacing: 2px;
+}
+
+.titulo-servicos2{
+	
+	padding-bottom: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+}
+
+/*Footer*/
+
+footer{
+	background:#0E0E37;
+}
+
+@media (max-width: 575.98px) { 
+
+	nav.navbar-editar{
+		background: #0E0E37;
+
+	}
+
+	.iframe-mapa iframe{
+		width: 250px;
+		margin-bottom: 220px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	nav.navbar-editar{
+		background: #0E0E37;
+
+	}
+
+	.iframe-mapa iframe{
+		width: 450px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	nav.navbar-editar{
+		background: #0E0E37;
+
+	}
+
+	.iframe-mapa iframe{
+		width: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+
+	div.separador{
+		padding-top: 450px;
+		padding-bottom: 350px;
+
+
+	}
+
+}
 
