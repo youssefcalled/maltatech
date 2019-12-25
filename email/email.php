@@ -11,7 +11,7 @@ $assunto = strip_tags(htmlspecialchars($_POST['assunto']));
 $mensagem = strip_tags(htmlspecialchars($_POST['mensagem']));
 
 
-$to = "youssefcalled@gmail.com";
+$to = "seuemail@provedor.com.br";
 $subject = "$assunto";
 $mensagem = "<strong>Nome:</strong> $nome<br /><br /><strong>E-mail:</strong>$email<br /><br /><strong>Assunto:</strong> $assunto<br /><br /><strong>Mensagem:</strong> $mensagem ";
 $header = "MIME-Version: 1.0\n";
